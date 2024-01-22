@@ -4,7 +4,7 @@ const prompt = require('prompt-sync')();
 
 class Jogo {
   constructor() {
-    this.palavras = ['JavaScript', 'HTML', 'CSS', 'OpenAI', 'Desafio'];
+    this.palavras = ['JavaScript', 'HTML', 'CSS', 'POO', 'Desafio', 'DevOps'];
     this.palavraSelecionada = this.selecionarPalavraAleatoria();
     this.maxTentativas = 6;
     this.tentativasRestantes = this.maxTentativas;
