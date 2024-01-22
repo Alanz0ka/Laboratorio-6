@@ -20,7 +20,7 @@ npm install prompt-sync
 ```
 3. Execute o jogo:
 
-```javascript
+```bash
 node main.js
 ```
 Siga as instruções no console para jogar!
