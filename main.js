@@ -1,7 +1,7 @@
 const Jogo = require('./Jogo');
 
 const jogo = new Jogo();
-console.log('Bem-vindo ao Jogo de Adivinhação de Palavras Estilizado!');
+console.log('Bem-vindo ao Jogo de Adivinhação de Palavras Sobre Tecnologia!');
 console.log(`Palavra: ${jogo.palavraSelecionada.getPalavraAdivinhada()}`);
 
 while (!jogo.palavraSelecionada.isPalavraAdivinhada() && jogo.tentativasRestantes > 0) {
