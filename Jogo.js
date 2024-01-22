@@ -36,7 +36,7 @@ class Jogo {
 
       if (ocorrencias.length === 0) {
         this.tentativasRestantes--;
-        console.log(`Letra '${letra}' não está na palavra. Tentativas restantes: ${this.tentativasRestantes}`);
+        console.log(`A letra '${letra}' não está na palavra. Tentativas restantes: ${this.tentativasRestantes}`);
         this.forca.avancarEstagio();
       } else {
         console.log(`A letra '${letra}' está na palavra nas posições: ${ocorrencias.join(', ')}`);
